@@ -3,10 +3,10 @@ Algorithms and Advanced Data Structures from the Course 1DV516 of Linnaeus Unive
 
 This repository contains the following folders:
 
-  - UnionFind - *Union Find (UF),
-                *Quick Union Find (QUF),
-                *Weighted Quick Union Find (WQUF) with weighting and path compression,
-                *Percolation Model based on WQUF, which uses Monte-Carlo method for estimating percolation threshold in a N x N grid. 
+  - UnionFind - Union Find (UF),
+                Quick Union Find (QUF),
+                Weighted Quick Union Find (WQUF) with weighting and path compression,
+                Percolation Model based on WQUF, which uses Monte-Carlo method for estimating percolation threshold in a N x N grid. 
               
   - Lists-Queues-Trees - Single-Linked List,
                          Double-Ended Queue, 
