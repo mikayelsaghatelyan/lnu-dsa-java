@@ -1,7 +1,7 @@
 # algorithms-and-data-structures-java
 Algorithms and Advanced Data Structures from the Course 1DV516 of Linnaeus University.
 
-This repository contains the following folders:
+The repository contains the following folders:
 
   - UnionFind - Union Find (UF),
                 Quick Union Find (QUF),
