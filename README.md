@@ -3,19 +3,19 @@ Algorithms and Advanced Data Structures from the Course 1DV516 of Linnaeus Unive
 
 The repository contains the following folders:
 
-  * UnionFind - Union Find (UF),
+  * **UnionFind** - Union Find (UF),
                 Quick Union Find (QUF),
                 Weighted Quick Union Find (WQUF) with weighting and path compression,
                 Percolation Model based on WQUF, which uses Monte-Carlo method for estimating percolation threshold in a N x N grid. 
               
-  - Lists-Queues-Trees - Single-Linked List,
+  * **Lists-Queues-Trees** - Single-Linked List,
                          Double-Ended Queue, 
                          Randomized Queue, 
                          Directory Tree, for listing files and folders inside a directory,
                          BinarySearchTree (BST),
                          AVL Balanced Tree.          
                        
-  - HashTables-Sorting - Hash Table 
+  * **HashTables-Sorting** - Hash Table 
                          Insertion Sort, 
                          Heap Sort, 
                          Quick Sort, 
@@ -24,7 +24,7 @@ The repository contains the following folders:
                          Counting Sort
                          Radix Sort.
                        
-  - Graphs - Graph implementations:
+  * **Graphs** - Graph implementations:
                   Basic Graph (only edge lists), 
                   IGraph interface: 
                       Graph (unweighted, undirected),
