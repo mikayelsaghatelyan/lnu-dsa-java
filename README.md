@@ -3,7 +3,7 @@ Algorithms and Advanced Data Structures from the Course 1DV516 of Linnaeus Unive
 
 The repository contains the following folders:
 
-  * **UnionFind**
+  **1. UnionFind**
   - Union Find (UF),
   - Quick Union Find (QUF),
   - Weighted Quick Union Find (WQUF) with weighting and path compression,
