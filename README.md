@@ -3,7 +3,7 @@ Algorithms and Advanced Data Structures from the Course 1DV516 of Linnaeus Unive
 
 The repository contains the following folders:
 
-  **1. UnionFind**
+  **1. UnionFind** - classes that implement [union](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) (disjoint set) data structures.
   - Union Find (UF),
   - Quick Union Find (QUF),
   - Weighted Quick Union Find (WQUF) with weighting and path compression,
