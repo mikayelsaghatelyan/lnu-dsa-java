@@ -3,98 +3,45 @@ Algorithms and Advanced Data Structures from the Course 1DV516 of Linnaeus Unive
 
 The repository contains the following folders:
 
-  **1. UnionFind** - classes that implement [union](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) (disjoint set) data structures.
+  **1. UnionFind** - contains classes that implement [Union](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) (disjoint-set) data structures.
   - Union Find (UF),
   - Quick Union Find (QUF),
   - Weighted Quick Union Find (WQUF) with weighting and path compression,
   - Percolation Model based on WQUF, which uses Monte-Carlo method for estimating percolation threshold in a N x N grid. 
               
-  * **Lists-Queues-Trees** - Single-Linked List,
-                         Double-Ended Queue, 
-                         Randomized Queue, 
-                         Directory Tree, for listing files and folders inside a directory,
-                         BinarySearchTree (BST),
-                         AVL Balanced Tree.          
+  **2. Lists-Queues-Trees** - contains classes that implement [Linked-list](https://en.wikipedia.org/wiki/Linked_list), [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) and [Tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) data structures.
+  - Single-Linked List,
+  - Double-Ended Queue, 
+  - Randomized Queue, 
+  - Directory Tree, for listing files and folders inside a directory,
+  - BinarySearchTree (BST),
+  - AVL Balanced Tree.          
                        
-  * **HashTables-Sorting** - Hash Table 
-                         Insertion Sort, 
-                         Heap Sort, 
-                         Quick Sort, 
-                         Merge Sort (Recursive and Iterative), 
-                         Shell Sort (basic gap sequence, Knuth's increments and Hibbard's increments), 
-                         Counting Sort
-                         Radix Sort.
+  **3. HashTables-Sorting** - contains a class with [Hash table](https://en.wikipedia.org/wiki/Hash_table), as well as classes with implementations of [Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm).
+  - Insertion Sort, 
+  - Heap Sort, 
+  - Quick Sort, 
+  - Merge Sort (*recursive* and *iterative* instances), 
+  - Shell Sort (instances that use *basic gap sequence*, as well as sequences that work through *Knuth's increments* and *Hibbard's increments*), 
+  - Counting Sort,
+  - Radix Sort.
                        
-  * **Graphs** - Graph implementations:
-                  Basic Graph (only edge lists), 
-                  IGraph interface: 
-                      Graph (unweighted, undirected),
-                      Digraph (unweighted, directed), 
-                  IWGraph interface:
-                      WeightedGraph (weighted, undirected),
-                      WeightedDigraph (weighted, directed),
-                  Edge class for creating edges used in WeightedGraph and WeightedDigraph classes,
-                  GraphIterator, for iterating through edge lists, adjacency lists and DFS/BFS paths,
-                  Depth-First Search (DFS and WeightedDFS classes),
-                  Breadth-First Search (BFS and WeightedBFS classes),
-                  Cycle Find (CF and WeightedCF classes),
-                  Connected Components (CC and WeightedCC classes),
-                  Topological Sorting (TopoSort and WeightedTS classes),
-                  Strongly-Connected Components [Kosaraju-Sharir Algorithm] (SCC and WeightedCC classes),
-                  Kruskal algorithm for minimum spanning tree/forest (Kruskal class, uses EdgeHeap class),
-                  Prim algorithm for minimum spanning tree (Prim class),
-                  Shortest path in a Directed Acyclic Graph (SPDAG class),
-                  Dijkstra algorithm for shortest paths and shortest path distances (Dijkstra class, uses Pair and PairHeap classes),
-                  Bellman-Ford algorithm (BellmanFord class),
+  * **4. Graphs** - contains classes with various implementations of [Graphs](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) and algorithms used on them.
+  - Simple graph implementation using only edge lists (**BasicGraph** class), 
+  - **IGraph** interface that implements **Graph** (unweighted, undirected) and **Digraph** (unweighted, directed) classes, 
+  - **IWGraph** interface that implements **WeightedGraph** (weighted, undirected), **WeightedDigraph** (weighted, directed) classes,
+  - **Edge** class for creating edges used in WeightedGraph and WeightedDigraph classes,
+  - **GraphIterator** class for iterating through edge lists, adjacency lists and DFS/BFS paths,
+  - [Depth-First Search](https://en.wikipedia.org/wiki/Depth-first_search) (**DFS** and **WeightedDFS** classes),
+  - [Breadth-First Search](https://en.wikipedia.org/wiki/Breadth-first_search) (**BFS** and **WeightedBFS **classes),
+  - [Cycle](https://en.wikipedia.org/wiki/Cycle_(graph_theory))-Finding Algorithm (**CF** and **WeightedCF** classes),
+  - [Connected Components](https://en.wikipedia.org/wiki/Component_(graph_theory)) (**CC** and **WeightedCC** classes),
+  - [Topological Sorting](https://en.wikipedia.org/wiki/Topological_sorting) (**TopoSort** and **WeightedTS** classes),
+  - Strongly-Connected Components [(Kosaraju's Algorithm)](https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm) (**SCC** and **WeightedCC** classes),
+  - [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) for [minimum spanning tree/forest](https://en.wikipedia.org/wiki/Minimum_spanning_tree) (**Kruskal** class, uses **EdgeHeap** class),
+  - [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) for minimum spanning tree (**Prim** class),
+  - Shortest path in a [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (**SPDAG** class),
+  - [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) for shortest paths and shortest path distances (**Dijkstra** class, uses **Pair** and **PairHeap** classes),
+  - [Bellman-Ford's algorithm](https://en.wikipedia.org/wiki/Bellman–Ford_algorithm) (**BellmanFord** class),
                   
-Each folder contains DriverClass for testing the algorithms and data structures from that folder.
-
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
-***
-Write down general information about your project. It is a good idea to always put a project status in the readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
-***
-A list of technologies used within the project:
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> Should it encompass several lines?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer to the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question, we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer to the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Apart from the listed classes, each folder has its own **DriverClass** for testing mentioned algorithms and data structures.
