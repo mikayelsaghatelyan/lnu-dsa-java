@@ -46,5 +46,5 @@ The repository contains the following folders:
                   Dijkstra algorithm for shortest paths and shortest path distances (Dijkstra class, uses Pair and PairHeap classes),
                   Bellman-Ford algorithm (BellmanFord class),
                   
-Each folder contains DriverClass for testing the algorithms and data structures implemented in that folder.
+Each folder contains DriverClass for testing the algorithms and data structures from that folder.
                 
