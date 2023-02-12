@@ -1,6 +1,6 @@
 # Algorithms and Advanced Data Structures
 
-This repository contains my solutions for the **4 Assignments** within the Course of **Algorithms and Advanced Data Structures, 1DV516** of Linnaeus University (Autumn 2022). The assignments are organized into the following folders:
+This repository contains my solutions for the **4 Assignments** within the Course of **Algorithms and Advanced Data Structures, 1DV516** of Linnaeus University (exchange semester via Erasmus+, 2nd year of studies, Autumn 2022). The assignments are organized into the following folders:
 
   **1. UnionFind** - contains classes that implement [Union](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) (disjoint-set) data structures.
   - Union Find (UF),
