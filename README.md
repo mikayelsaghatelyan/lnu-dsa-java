@@ -1,4 +1,4 @@
-# Algorithms and Advanced Data Structures.
+# Algorithms and Advanced Data Structures
 
 This repository contains my solutions for the **4 Assignments** within the Course of **Algorithms and Advanced Data Structures, 1DV516** of Linnaeus University (Autumn 2022). The assignments are organized into the following folders:
 
