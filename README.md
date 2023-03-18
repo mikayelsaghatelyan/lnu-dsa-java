@@ -32,7 +32,7 @@ This repository contains my solutions for the **4 Assignments** within the Cours
   - **Edge** class for creating edges used in WeightedGraph and WeightedDigraph classes,
   - **GraphIterator** class for iterating through edge lists, adjacency lists and DFS/BFS paths,
   - [Depth-First Search](https://en.wikipedia.org/wiki/Depth-first_search) (**DFS** and **WeightedDFS** classes),
-  - [Breadth-First Search](https://en.wikipedia.org/wiki/Breadth-first_search) (**BFS** and **WeightedBFS **classes),
+  - [Breadth-First Search](https://en.wikipedia.org/wiki/Breadth-first_search) (**BFS** and **WeightedBFS** classes),
   - [Cycle](https://en.wikipedia.org/wiki/Cycle_(graph_theory))-Finding Algorithm (**CF** and **WeightedCF** classes),
   - [Connected Components](https://en.wikipedia.org/wiki/Component_(graph_theory)) (**CC** and **WeightedCC** classes),
   - [Topological Sorting](https://en.wikipedia.org/wiki/Topological_sorting) (**TopoSort** and **WeightedTS** classes),
