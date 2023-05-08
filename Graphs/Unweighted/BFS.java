@@ -41,10 +41,9 @@ public class BFS { // breadth-first search
         ArrayList<Integer> path = new ArrayList<>();
         if (!hasPathTo(v))
             return path;
-        int x = v;
-        while (x != this.s) {
-            path.add(0, x);
-            x = edgeTo.get(x);
+        while (v != this.s) {
+            path.add(0, v);
+            v = edgeTo.get(v);
         }
         path.add(0, this.s);
         return path;
